@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:normal",
+    "minecraft:flat",
+    "minecraft:large_biomes",
+    "minecraft:amplified",
+    "minecraft:single_biome_surface",
+    "worldmod:skyblock",
+    "worldmod:continental",
+    "worldmod:islands",
+    "worldmod:cave_world",
+    "worldmod:floor_is_lava",
+    "worldmod:overend",
+    "worldmod:overnether",
+    "worldmod:winter_wonderland"
+  ]
+}

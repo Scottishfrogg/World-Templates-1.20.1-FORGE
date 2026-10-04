@@ -1,0 +1,10 @@
+// 1.20.1	2026-10-03T10:38:56.5991786	Registries
+dade58cf7ef9b2659cd033bafbce28ee6f2d599c data/worldmod/worldgen/density_function/continental/continents.json
+06c0c47803fda043a61ec3ead14cf9dec60c508a data/worldmod/worldgen/density_function/continental/depth.json
+7113ad8487d8aa7971095e5f724d1f147b92371b data/worldmod/worldgen/density_function/continental/factor.json
+9fc7d609c7964cabac1534e9f56dc9b198c4cc4b data/worldmod/worldgen/density_function/continental/jaggedness.json
+5bc855e831e6f8c06d9f48a21be844558bb7275f data/worldmod/worldgen/density_function/continental/offset.json
+34419dd2e0cdd62cc8ff02afb3c05ad570732f7d data/worldmod/worldgen/density_function/continental/sloped_cheese.json
+95292ff4a7616733fa32cbbd4aaa0b92439bb118 data/worldmod/worldgen/noise/continentalness_continental.json
+60ca73cd1c86508cbdff3b2365e4f88f7af8b6b9 data/worldmod/worldgen/noise_settings/continental.json
+5af563b2b3cbfd8d69f9b0a5ff60660289ba335d data/worldmod/worldgen/noise_settings/islands.json

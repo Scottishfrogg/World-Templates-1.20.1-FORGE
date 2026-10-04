@@ -1,0 +1,49 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "worldmod:islands",
+        "biome_source": {
+          "type": "worldmod:islands",
+          "spawn_biome": "minecraft:forest",
+          "ocean_biome": "minecraft:deep_ocean",
+          "island_biomes": [
+            "minecraft:plains",
+            "minecraft:desert",
+            "minecraft:taiga",
+            "minecraft:jungle",
+            "minecraft:snowy_plains",
+            "minecraft:savanna",
+            "minecraft:swamp",
+            "minecraft:badlands",
+            "minecraft:cherry_grove",
+            "minecraft:dark_forest"
+          ]
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:nether",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:end",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        }
+      }
+    }
+  }
+}

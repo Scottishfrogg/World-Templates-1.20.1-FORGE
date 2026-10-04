@@ -1,0 +1,68 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "worldmod:cave_world",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "worldmod:cave_world",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "minecraft:plains",
+              "parameters": {
+                "temperature": [-2.0, 2.0], "humidity": [-2.0, 2.0],
+                "continentalness": [-2.0, 2.0], "erosion": [-2.0, 2.0],
+                "weirdness": [-2.0, 2.0], "depth": [-2.0, 2.0],
+                "offset": 0.1
+              }
+            },
+            {
+              "biome": "minecraft:lush_caves",
+              "parameters": {
+                "temperature": [-2.0, 2.0], "humidity": [0.25, 2.0],
+                "continentalness": [-2.0, 0.25], "erosion": [-2.0, 2.0],
+                "weirdness": [-2.0, 2.0], "depth": [-2.0, 1.1],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "temperature": [-2.0, 2.0], "humidity": [-2.0, 2.0],
+                "continentalness": [0.25, 2.0], "erosion": [-2.0, 2.0],
+                "weirdness": [-2.0, 2.0], "depth": [-2.0, 1.1],
+                "offset": 0.0
+              }
+            },
+            {
+              "biome": "minecraft:deep_dark",
+              "parameters": {
+                "temperature": [-2.0, 2.0], "humidity": [-2.0, 2.0],
+                "continentalness": [-2.0, 2.0], "erosion": [-2.0, -0.1],
+                "weirdness": [-2.0, 2.0], "depth": [1.1, 2.0],
+                "offset": 0.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:nether",
+        "biome_source": { "type": "minecraft:multi_noise", "preset": "minecraft:nether" }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:end",
+        "biome_source": { "type": "minecraft:the_end" }
+      }
+    }
+  }
+}
